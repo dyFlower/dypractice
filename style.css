@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url('image/background.jpg');
+    background-color: #D9e5ff;
+}
+
+footer{
+    text-align : center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
