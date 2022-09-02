@@ -7,6 +7,7 @@ li {
 header{
     text-align: center;
     color: white;
+    margin: 0 auto;
 }
 
 li{
@@ -15,8 +16,10 @@ li{
     color: white;
 }
 body{
-    background-image: url('image/yellowf.jpg');
+    background-image: url('image/noru.jpg');
     background-color: #D9e5ff;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav{
     margin: auto;
@@ -28,6 +31,7 @@ article{
 img{
     width: 500px;
     margin: 0;
+    border-radius: 30px;
 }
 
 footer{
