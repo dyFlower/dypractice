@@ -1,13 +1,39 @@
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 header{
     text-align: center;
     color: white;
 }
+
+li{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
 body{
-    background-image: url('image/background.jpg');
+    background-image: url('image/yellowf.jpg');
     background-color: #D9e5ff;
+}
+nav{
+    margin: auto;
+    width: 800px;
+}
+article{
+    text-align: center;
+}
+img{
+    width: 500px;
+    margin: 0;
 }
 
 footer{
+    padding: auto;
+    margin: auto;
+    color: white;
     text-align : center;
     position: fixed;
     bottom: 0;
