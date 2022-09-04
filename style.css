@@ -8,33 +8,49 @@ header{
     text-align: center;
     color: white;
     margin: 0 auto;
+    margin-bottom: 50px;
+}
+header section{
+    text-align: right;
 }
 
-li{
-    font-size: 50px;
-    text-align: center;
-    color: white;
+header ul{
+    text-align: left;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 20px;
 }
-body{
+header ul li{
+    width: fit-content;
+    float: left;
+    margin: 0 10px;
+}
+
+body {
     background-image: url('image/noru.jpg');
-    background-color: #D9e5ff;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-nav{
-    margin: auto;
-    width: 800px;
-}
-article{
-    text-align: center;
-}
-img{
-    width: 500px;
-    margin: 0;
-    border-radius: 30px;
+    background-attachment: fixed;
 }
 
-footer{
+.scrollimage{
+    margin: 30px auto;
+    text-align: center;
+}
+.scrollimage img {
+    margin-top: 50px;
+    width: 200px;
+    
+}
+
+.cute img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+footer {
     padding: auto;
     margin: auto;
     color: white;
