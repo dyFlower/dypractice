@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    overflow: visible;
+    cursor: pointer;
+}
+body {
+    background-color: black;
+}
+/* ------------------header-----------------*/
+.header-main {
+    position: fixed;
+    width: 100%;
+}
+
+.wrapper-header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 40px 100px;
+}
+.header-home {
+    font-size: 2em;
+}
+
+.header-nav-listbox {
+    display: flex;
+    flex-direction: row;
+}
+.header-nav-listbox button {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+/* ------------------main----------------*/
+
+.wrapper-section {
+    padding-top: 120px;
+    background-color: white;
+    margin: 0 100px;
+}
+/* ------------section-indtroduction-----------*/
+.section-introduction {
+    height: 500px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+/* ------------section-about -----------*/
+.section-about {
+    height: 500px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+/* ------------section-skils-----------*/
+.section-skills {
+    height: 500px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+/* ------------section-activity-----------*/
+.section-activity {
+    height: 500px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+/* ------------section-projects-----------*/
+.section-projects {
+    height: 500px;
+    background-color: orange;
+}
+/* ------------------footer-----------------*/
+footer {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+footer .copyright {
+    line-height: 30px;
+}
+footer .footer-link {
+    margin: 0 5px;
+    font-size: 20px;
+    color: orangered;
+}
