@@ -19,10 +19,14 @@ button {
 body {
     background-color: black;
 }
+section {
+    padding: 3rem;
+}
 /* ------------------header-----------------*/
 .header-main {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .wrapper-header {
@@ -45,6 +49,7 @@ body {
     font-size: 1.5em;
     margin-right: 15px;
 }
+
 /* ------------------main----------------*/
 
 .wrapper-section {
@@ -55,31 +60,56 @@ body {
 /* ------------section-indtroduction-----------*/
 .section-introduction {
     height: 500px;
-    background-color: orange;
+    background-color: palegreen;
     margin-bottom: 10px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+.img-profile {
+    opacity: 70%;
+    height: 80%;
+}
+.intro-desc {
+    display: flex;
+    flex-direction: column;
 }
 /* ------------section-about -----------*/
 .section-about {
     height: 500px;
+    font-size: 3rem;
     background-color: orange;
     margin-bottom: 10px;
 }
 /* ------------section-skils-----------*/
 .section-skills {
-    height: 500px;
-    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    height: 700px;
+    font-size: 3rem;
+    background-color: palegreen;
     margin-bottom: 10px;
+}
+.section-skills img {
+    height: 200px;
 }
 /* ------------section-activity-----------*/
 .section-activity {
     height: 500px;
     background-color: orange;
     margin-bottom: 10px;
+    font-size: 3rem;
 }
 /* ------------section-projects-----------*/
 .section-projects {
     height: 500px;
-    background-color: orange;
+    font-size: 3rem;
+    background-color: palegreen;
 }
 /* ------------------footer-----------------*/
 footer {
@@ -94,4 +124,10 @@ footer .footer-link {
     margin: 0 5px;
     font-size: 20px;
     color: orangered;
+}
+.wrap-a {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
 }
