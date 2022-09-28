@@ -67,17 +67,14 @@ section {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 .img-profile {
     opacity: 70%;
     height: 80%;
 }
-.intro-desc {
-    display: flex;
-    flex-direction: column;
-}
+
 /* ------------section-about -----------*/
 .section-about {
     height: 500px;
@@ -130,4 +127,9 @@ footer .footer-link {
     justify-content: center;
     gap: 20px;
     font-size: 2rem;
+}
+
+strong {
+    color: red;
+    font-size: 3rem;
 }
